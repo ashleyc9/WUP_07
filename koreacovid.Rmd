@@ -53,13 +53,16 @@ basicCC + geom_bar(stat="identity", position = "dodge")
   
 There is more females than males that show on these charts. Twice the amount of people that are males that are dead as there is females, which is pretty odd since there are more females than males. It is killing males on a 2 to 1 basis. In our graphical results, Covid wants to kill more of the males than females. 
 
-
-
-
-
   
 ## Numerical results
 
+```{r}
+table1 <- xtabs(~result + Sex, data=kRdata)
+rowPerc(table1)
+colPerc(table1)
+```
+  
+There is a total of 100 men and women each. The females that are alive are 56% of them, while males have 44% alive. Then the males that are dead is a percentage of 64, while females have a percentage fo 36. In the second chart is below the first, shows that there is a percentage of females that is 98.7, while me have a percentage fo 97. The amount of females that are dead are 1.4, while males have 3.
 
 ## Inferential results 
 
