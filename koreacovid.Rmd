@@ -73,7 +73,8 @@ fisher.test(table1)
 ```
 
   
-In the group of 1831 were alive and 1411. All in all more females are alive than male. The p value is 1 out of a thousand. It is a small chance to have females dead over this disease than males. In fisher's test 9 out of 10,000 that are about the same p value. You can also see the odds ratio of. The odds of female living against the odds of males dying. We want to know the odds of this happening. 
+In the group of 1831females were alive and 1411males. All in all more females are alive than male. The p value is 1 out of a thousand. It is a small chance to have females dead over this disease than males. In fisher's test 9 out of 10,000 that are about the same p value. You can also see the odds ratio of. The odds of female living against the odds of males dying. We want to know the odds of this happening. 
 
 ## Conclusions
-
+  
+Overall, there was a lot more females then there were males, but males having the higher death percentages from Covid than females. Till this day we still try to figure out why males were dying from the disease over females, is it because they got out more than females? The plots that we created showed us the results of the amount of females and males that died from Covid. The final result is that we want to know what the odds are of this happening. Even with the males having a lower percentage of them being alive than females, they still had the highest percentage of deceased.
